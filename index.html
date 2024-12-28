@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pai">
+    <h1>Conversor de Dolar para kwanza</h1>
+    <input placeholder ="valora em dolar"  type="number">
+    <button onclick="converter()">Conversor</button>
+</div>
+</body>
+<script>
+
+ let valorReal = document.querySelector("input")
+
+  function converter(){
+
+    let valorconvertido = valorReal.value*1000
+    
+    alert(`o valor em kwanza é ${valorconvertido}`)
+  
+
+  }
+
+
+
+
+
+</script>
+</html>
